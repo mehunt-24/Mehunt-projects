@@ -1,6 +1,6 @@
-num1 = int(input("enter a number"))
-num2 = int(input("enter the other number"))
-sign = input('')
+num1 = int(input("Enter a number: "))
+num2 = int(input("Enter the other number: "))
+sign = input('Enter the sign for calculation: ')
 if sign == '+':
     print('The Answer is: ', num1+num2)
 elif sign == '-':

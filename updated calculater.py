@@ -1,4 +1,4 @@
-exp = input('Enter the expression: ').split()
+exp = input('Enter the numerical expression: ').split()
 if exp[1] == '+':
     print('The Answer is: ', int(exp[0])+int(exp[2]))
 elif exp[1] == '-':
@@ -8,4 +8,4 @@ elif exp[1] == '*':
 elif exp[1] == '/':  
     print('The Answer is: ', int(exp[0])/int(exp[2]))
 else:
-    print('Enter the symbol of the calculation')
+    print('Enter the numerical expression for the calculation')
